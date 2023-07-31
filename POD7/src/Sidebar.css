@@ -1,0 +1,40 @@
+.sidebar {
+    width: 200px;
+    background-color: #f1f1f1;
+    transition: width 0.3s;
+    }
+    
+    .sidebar-header {
+    background-color: #ccc;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    }
+    
+    .sidebar-links {
+    padding: 10px;
+    }
+    
+    .sidebar a {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+    }
+    
+    .arrow-icon {
+    cursor: pointer;
+    }
+    
+    .expanded {
+    width: 200px;
+    }
+    
+    .collapsed {
+    width: 50px;
+    overflow: hidden;
+    }
+    
+    .collapsed .sidebar-links {
+    display: none;
+    }

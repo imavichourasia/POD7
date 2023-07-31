@@ -1,0 +1,32 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    }
+    
+    nav ul li {
+    float: left;
+    }
+    
+    nav ul li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    nav ul li.right-align {
+    float: right;
+    }
+    
+    .user-profile {
+    display: flex;
+    align-items: center;
+    }
+    
+    .username {
+    margin-left: 8px;
+    }
